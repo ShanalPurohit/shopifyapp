@@ -1,9 +1,17 @@
 import { Heading, Page } from "@shopify/polaris";
+import React from "react";
 
-const Index = () => (
-  <Page>
-    <Heading>Hello shopify</Heading>
-  </Page>
-);
+
+
+class Index extends React.Component{
+  render(){
+    return(
+      <h1>Hello World</h1>
+    )
+  }
+
+}
+  
+
 
 export default Index;
